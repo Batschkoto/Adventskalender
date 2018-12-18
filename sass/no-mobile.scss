@@ -1,0 +1,21 @@
+$myopacity : 0.9;
+
+
+%christmasbox {
+  background-image:url(https://de.best-wallpaper.net/wallpaper/1920x1200/1110/Colorful-Christmas-balls_1920x1200.jpg);
+  opacity: $myopacity;
+}
+
+.footer {
+  @extend %christmasbox;
+}
+
+
+.no-mobile {
+  @extend %christmasbox;
+  opacity: 0.7;
+  height:100vh;
+  width:100vw;
+
+}
+
